@@ -1,4 +1,5 @@
 
+'use strict';
 
 function getCount() {
     $.get('/the-count', function(data) {
