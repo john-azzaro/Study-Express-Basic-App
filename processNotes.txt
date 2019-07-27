@@ -5,7 +5,7 @@ demonstrate strucutre and functionality.
 
 
 PHASE 1: Project Setup
-=======================
+/////////////////////////
 
     STEP 1: Create a project folder:
     ================================
@@ -42,5 +42,23 @@ PHASE 1: Project Setup
     ========================================================================================================================
         o   .gitgignore
             node_modules 
+
+
+PHASE 2: Build your basic server in server.js:
+////////////////////////////////////////////////
+
+    STEP 7: In your app, first load any modules you will need for the project:
+    ==========================================================================
+        o   In the case of this basic application, we dont need to load any modules or middleware other than the built-in middleware in express.
+        
+        STEP 7.1: Load the built-in express module and initilaize it
+        ============================================================
+
+            const express = require('express');       <== adds the express module to your project
+            const app = express();                    <== intilizes express and stores as "app" which you will then use for your routes and commands.
+
+        STEP 
+
+
 
 
