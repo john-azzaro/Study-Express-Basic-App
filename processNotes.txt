@@ -1,0 +1,46 @@
+Process Notes
+===============
+In this study, we'll make a single page express web page with an integrated counting app to 
+demonstrate strucutre and functionality.
+
+
+PHASE 1: Project Setup
+=======================
+
+    STEP 1: Create a project folder:
+    ================================
+        o   "express-app"
+
+
+    STEP 2: Install the express framework in your project folder in gitbash:
+    ========================================================================
+        o   "npm install express"
+
+            o   When you do this, you will get a node_modules folder and a pack-lock.json file (you dont touch these)
+
+
+    STEP 3: Create a server.js file for your project server:
+    ========================================================
+        o   "server.js"
+
+            o   It is best to do this now because in the next step when you initialize npm, it will ask you which
+                entry point you want to use for your server. However, you can add this file after as well but it 
+                must be the same as what is listed in the "main" property in your package.json file.
+
+
+    STEP 4: Initialize npm in your project folder in gitbash:
+    ==========================================================
+        o   "npm init" 
+
+
+    STEP 5: Add dependencies (if any)
+    =================================
+        o   In this example we dont have any.
+
+
+    STEP 6: Add a .gitginore file and include your node_modules folder so it will not be uploaded to github (if applicable):
+    ========================================================================================================================
+        o   .gitgignore
+            node_modules 
+
+
