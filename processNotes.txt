@@ -101,7 +101,13 @@ PHASE 3: Add HTML and CSS files to your project
 
 PHASE 4: Add the buisness logic to your application
 ===================================================
+    o   In this app, the objective is to create a simple process wherein each time the client presses the 
+        "Click me!" button, the counter will increment by 1.
 
+    STEP 12: Add a "count" variable to store the count from your app.
+    =================================================================
+    o   To keep the app simple, we'll store the count on the server.
+    
 
 
 
