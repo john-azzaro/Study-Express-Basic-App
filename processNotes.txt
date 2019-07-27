@@ -63,10 +63,29 @@ PHASE 2: Build your basic server in server.js:
 
         app.use(express.static('public'));
 
+
     STEP 9: Create a "public" folder in your project folder.
     ========================================================
         
         "public"
+
+
+    OPTIONAL: Create a basic GET endpoint to test your server
+    =========================================================
+        o   In this case, create a basic GET endpoint to test whether or not ytour server is working correctly before
+            moving on to the business logic of your app.  This makes sure you have a solid base to work from.
+
+                    app.get('/', function(req, res) {
+                        console.log('This is a working test response... ')
+                    });
+
+
+    STEP 10: Create a basic "app.listen" function to listen for requests made to this server:
+    =========================================================================================
+
+                    app.listen(3000, function() {
+                        console.log(`Your app is listening on port 3000...`);
+                    }); 
 
 
 

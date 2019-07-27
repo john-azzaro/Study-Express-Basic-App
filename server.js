@@ -8,3 +8,13 @@ const app = express();                                                          
 
 
 app.use(express.static('public'));                                                /* set up your ststic file server to serve files from the "public" folder */
+
+
+app.get('/', function(req, res) {
+    console.log('This is a working test response... ')
+});
+
+app.listen(3000, function() {
+    console.log(`Your app is listening on port 3000...`);
+}); 
+    
