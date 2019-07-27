@@ -54,10 +54,20 @@ PHASE 2: Build your basic server in server.js:
         STEP 7.1: Load the built-in express module and initilaize it
         ============================================================
 
-            const express = require('express');       <== adds the express module to your project
+            const express = require('express');       <== imports the express module to your project
             const app = express();                    <== intilizes express and stores as "app" which you will then use for your routes and commands.
 
-        STEP 
+    
+    STEP 8: Setup a static file server that serves assets from a "public" folder:
+    =============================================================================
+
+        app.use(express.static('public'));
+
+    STEP 9: Create a "public" folder in your project folder.
+    ========================================================
+        
+        "public"
+
 
 
 
