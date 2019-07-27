@@ -107,6 +107,8 @@ PHASE 4: Add the buisness logic to your application
     STEP 12: Add a "count" variable to store the count from your app.
     =================================================================
     o   To keep the app simple, we'll store the count on the server.
+
+    STEP 13: 
     
 
 
