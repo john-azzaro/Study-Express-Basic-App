@@ -88,6 +88,20 @@ PHASE 2: Build your basic server in server.js:
                     }); 
 
 
+PHASE 3: Add HTML and CSS files to your project
+===============================================
+
+    STEP 11: Add HTML and CSS (if any) to your "public" folder
+    ===========================================================
+    o   In your publice folder, create an index.html main page.
+    o   If you have stylesheets, create a folder "stylesheets" and place your css files in there.
+    o   Because the files are placed in the "public" folder, there is no need to create seperate routes for your page(s).
+
+
+
+PHASE 4: Add the buisness logic to your application
+===================================================
+
 
 
 
