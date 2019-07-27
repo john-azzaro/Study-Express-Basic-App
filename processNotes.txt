@@ -108,8 +108,44 @@ PHASE 4: Add the buisness logic to your application
     =================================================================
     o   To keep the app simple, we'll store the count on the server.
 
-    STEP 13: 
+    STEP 13: Add logic in client.js for the counter
+    ===============================================
     
+            'use strict';
+
+            function getCount() {                                                   // when getCount runs...
+                $.get('/the-count', function(data) {                                // "$.get() will load the data from the server using an HTTP GET request using the route "/the-count"
+                $('.js-current-count').text(data.count);                          // and the current count will show the current count.
+                });
+            }
+
+            function buttonPress() {                                                 // when button press occurs...
+                $('body').on('click', '.js-button', function() {                     // on click of the button with the class .js-button, run getCount.
+                    getCount();
+                });
+            }
+
+            function setupEventListeners() {                                        //  Listen for button press (in this case, listening for when the client presses the increment button)
+                buttonPress();
+            }
+
+            function initialize() {                                                 // setup event listeners...
+                setupEventListeners();
+            }
+
+            $(initialize);                                                          // App initilizes...
+    
+
+    STEP 14: IN your server.js file, create a route for your increment counter:
+    ===========================================================================
+
+            app.get("/the-count", (req, res) => {                                               /* when the user presses the button (i.e. sends a request after pressing the button*/
+                console.log('incrementing the count');
+                theCount += 1;                                                                    /* increment the counter by 1*/
+                console.log(`the count is ${theCount}`);
+                res.json({count: theCount});                                                      /* and the response will be a json object with the new count amount.*/
+            });
+
 
 
 
