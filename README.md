@@ -7,14 +7,14 @@ The "Express Basic App Study" demonstrates additonal application complexity in a
 
 Here are a few questions examined in this study:
 
-* [How do you install Express Website Study?](#How-do-you-install-Express-Website-Study)
-* [Does Express Website Study feature commentary?](#Does-Express-Website-Study-feature-commentary)
-* [What are the key features of Express Website Study?](#What-are-the-key-features-of-Express-Website-Study)
+* [How do you install Express Basic App Study?](#How-do-you-install-Express-Basic-App-Study)
+* [Does Express Basic App Study feature commentary?](#Does-Express-Basic-App-Study-feature-commentary)
+* [What are the key features of Express Basic App Study?](#What-are-the-key-features-of-Express-Basic-App-Study)
 * [Screenshots](#Screenshots)
 
 <br>
 
-## How do you install Express Website Study?
+## How do you install Express Basic App Study?
 1. After cloning this repo, run ```npm install``` at the command line.
 2. To stat the app, run ```npm start``` at the command line.
 3. Visit http://localhost:3000 to see the study live.
